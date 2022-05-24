@@ -1,0 +1,165 @@
+body {
+    background-color: gray;
+    color: rgb(204, 201, 201);
+}
+
+.container {
+    background-color: #404e5f;
+    border: 1px solid #38414a;
+    border-radius: 8px;
+    padding: 270px;
+    margin: 20px;
+}
+
+form {
+    margin-top: -230px;
+}
+
+.add {
+    padding: 7PX;
+    margin-bottom: 50px;
+    text-align: left;
+    background-color: #404e5f;
+    width: 420px;
+    box-shadow: inset 2px 2px 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-left: 120px;
+    color: rgb(204, 201, 201);
+}
+
+::placeholder {
+    color: rgb(204, 201, 201);
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+    margin-left: -40px;
+    color: rgb(204, 201, 201);
+}
+
+.task {
+    border-radius: 8px;
+    width: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    margin-right: 10px;
+}
+
+.radio {
+    margin-right: 15px;
+}
+
+P {
+    font-size: 23px;
+    color: rgb(204, 201, 201);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.title {
+    color: #404e5f;
+    margin-bottom: -60px;
+    margin-left: 25px;
+}
+
+.task-com {
+    background-color: #404e5f;
+    width: 28%;
+    box-shadow: inset 2px 2px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    color: rgb(204, 201, 201);
+    padding: 10px;
+    text-decoration: line-through;
+}
+
+@media(min-width:350px) and (max-width: 900px) {
+    body {
+        background-color: gray;
+        color: rgb(204, 201, 201);
+    }
+    .container {
+        background-color: #404e5f;
+        border: 1px solid #38414a;
+        border-radius: 8px;
+        padding: 60px;
+        margin: 20px;
+        padding-bottom: 350px;
+    }
+    form {
+        margin-top: -230px;
+    }
+    .add {
+        padding: 7px;
+        margin-bottom: 50px;
+        text-align: left;
+        background-color: #404e5f;
+        width: 275px;
+        box-shadow: inset 2px 2px 1px 1px rgb(0 0 0 / 30%);
+        border-radius: 8px;
+        margin-left: -38px;
+        color: rgb(204, 201, 201);
+        margin-top: 250px;
+    }
+     ::placeholder {
+        color: rgb(204, 201, 201);
+    }
+    .btn {
+        border: 0;
+        background-color: transparent;
+        margin-left: -83px;
+        color: rgb(204, 201, 201);
+    }
+    .task {
+        margin-left: -75px;
+        border-radius: 8px;
+        width: 160%;
+        padding: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+    }
+    input {
+        margin-right: 10px;
+    }
+    .radio {
+        margin-right: 15px;
+    }
+    P {
+        font-size: 23px;
+        color: rgb(204, 201, 201);
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: -47px;
+    }
+    .task-com {
+        background-color: #404e5f;
+        width: 158%;
+        margin-left: -75px;
+        box-shadow: inset 2px 2px 1px 1px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        color: rgb(204, 201, 201);
+        padding: 10px;
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:350px) and (max-width: 667px) {
+    .btn {
+        border: 0;
+        background-color: transparent;
+        margin-left: -38px;
+        color: rgb(204, 201, 201);
+        margin-right: -67px;
+    }
+    .title {
+        color: rgb(204, 201, 201);
+        margin-bottom: -60px;
+        margin-left: 40px;
+    }
+}
